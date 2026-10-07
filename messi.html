@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tributo a Messi</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+  <style>
+    :root {
+        --bulma-primary-h: 29deg !important;
+        --bulma-primary-s: 68% !important;
+        --bulma-primary-l: 24% !important;
+    }
+
+    .card-ojba {
+        max-width: 320px !important;
+    }
+
+    .gap {
+        gap: 1rem;
+    }
+  </style>
+</head>
+
+<body data-theme="light">
+  <header>
+    <nav class="navbar is-transparent">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+          <span class="title is-4">LM10</span>
+        </a>
+        <div class="navbar-burger js-burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="#"> Inicio </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <div class="navbar-link"> Trayectoria </div>
+            <div class="navbar-dropdown is-boxed">
+              <a class="navbar-item" href="#"> FC Barcelona </a>
+              <a class="navbar-item" href="#"> Selección Argentina </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item is-selected" href="#"> Estadísticas </a>
+              <a class="navbar-item" href="#"> Palmarés </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="field is-grouped">
+              <p class="control">
+                <a class="bd-tw-button button" target="_blank">
+                  <span> Messi </span>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero is-info is-fullheight">
+      <div class="hero-body columns is-mobile is-multiline">
+        <div class="column is-full-mobile is-one-third-desktop">
+            <p class="title">Lionel Messi</p>
+            <p class="subtitle">El legado del 10 en el fútbol mundial</p>
+        </div>    
+        <div class="column is-flex is-align-items-center is-justify-content-center">
+            <div class="box has-text-centered has-text-info">
+                <p class="is-size-4 is-italic">"Prefiero ganar títulos con el equipo antes que premios individuales."</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container is-max-desktop mt-6">
+        <div class="content">
+            <p>
+                Lionel Andrés Messi Cuccittini ha marcado un antes y un después en la historia del deporte. Desde sus primeros pasos en las categorías inferiores de La Masía hasta su consagración definitiva en el Mundial de Qatar 2022, su carrera es un ejemplo de constancia, talento y superación. Durante casi dos décadas, dominó el fútbol europeo vistiendo los colores del FC Barcelona, convirtiéndose en el máximo goleador histórico del club y de La Liga española.
+            </p>    
+            <p>
+                Con la selección argentina, el camino no siempre fue fácil. Tras varias finales perdidas y críticas injustas, logró revertir la situación liderando al equipo hacia la conquista de la Copa América en el Maracaná, la Finalissima en Wembley y, finalmente, la ansiada tercera estrella mundialista. Su forma de jugar, su visión de campo y su humildad lo consolidan como el mejor jugador de todos los tiempos.
+            </p>
+        </div>
+    </section>
+
+    <section class="container is-max-desktop mt-6 mb-6 is-flex gap is-align-items-stretch is-flex-wrap-wrap is-justify-content-center">
+        
+        <div class="card card-ojba">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">FC Barcelona</p>
+                <p class="subtitle is-6">El club de su vida</p>
+              </div>
+            </div>
+            <div class="content">
+              Disputó 778 partidos oficiales y anotó 672 goles. Ganó 35 títulos, incluyendo 4 Champions Leagues y 10 Ligas de España, formando equipos históricos que cambiaron la forma de jugar al fútbol.
+              <br />
+              <time datetime="2004-10-16">Debut oficial: 16 Oct 2004</time>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-ojba">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Selección Argentina</p>
+                <p class="subtitle is-6">La gloria máxima</p>
+              </div>
+            </div>
+            <div class="content">
+              Capitán y máximo goleador histórico de la Albiceleste. Lideró al equipo para romper una sequía de 28 años ganando la Copa América, y se consagró Campeón del Mundo en Qatar.
+              <br />
+              <time datetime="2022-12-18">Campeón: 18 Dic 2022</time>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-ojba">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Premios Individuales</p>
+                <p class="subtitle is-6">Récords absolutos</p>
+              </div>
+            </div>
+            <div class="content">
+              Ganador de 8 Balones de Oro, 6 Botas de Oro y múltiples premios a mejor creador de juego. Posee el récord de más goles anotados en un solo año natural (91 goles en 2012).
+              <br />
+              <time datetime="2023-10-30">Último Balón de Oro: 2023</time>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+    });
+  </script>
+
+  <footer class="footer" has-background-primary>
+    <div class="content has-text-centered">
+        <p>
+            Angel David Ferrufino Banegas - 0801200614092
+        </p>
+    </div>
+  </footer>
+</body>
+</html>
